@@ -1,6 +1,6 @@
 import React from 'react';
 
-export default function KarajatLifestyle({ onOpenBookModal }) {
+export default function KarjatLifestyle({ onOpenBookModal }) {
   return (
     <section className="w-full py-space-xl bg-surface-container-low" id="lifestyle">
       <div className="max-w-[1380px] mx-auto px-margin-mobile lg:px-margin">

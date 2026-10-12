@@ -89,7 +89,7 @@ export default function BookTour({ onShowToast }) {
       {/* Background Image with Light/Subtle Overlay */}
       <div className="absolute inset-0 z-0">
         <img
-          alt="Karajat Foothills Estate"
+          alt="Karjat Foothills Estate"
           className="w-full h-full object-cover scale-105"
           src="https://lh3.googleusercontent.com/aida-public/AB6AXuDsygrpDg0lQxAx4gBxSEInzZNlAPmZNzz9s12Hkl2jeWSTA3P8STRBr-nyFtU-iTjwDbKpne-tcpHZXA3Nsu4WfHSK0JhimpRumQSeo5gt5cWjKJy1HwNawX0JG1LQyVPaEf3wZIOEtxNcOLK5gnrfGH8PeRt-EQpTIaQECZGMEanGck_0eIIHbfDBznLR2V7rmcoXzyF_ucPWfSECdeI1zRP4xp_rTVCMV2a1Z_z0-XNGnbKoezG9"
         />

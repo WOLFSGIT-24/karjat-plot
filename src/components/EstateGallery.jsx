@@ -130,7 +130,7 @@ export default function EstateGallery({ onSelectImage }) {
         {/* Action Bar */}
         <div className="flex items-center justify-between pt-space-lg">
           <p className="font-body-sm text-body-sm text-on-surface-variant">
-            Showing {filteredItems.length} verified photographic surveys · General Karajat Foothill Ridge
+            Showing {filteredItems.length} verified photographic surveys · General Karjat Foothill Ridge
           </p>
           <button
             onClick={() => onSelectImage(galleryItems[0])}

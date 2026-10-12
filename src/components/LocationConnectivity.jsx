@@ -5,7 +5,7 @@ export default function LocationConnectivity() {
     { destination: 'Navi Mumbai Intl. Airport (NMIA)', distance: '42 km', duration: '45 mins via Expressway' },
     { destination: 'Atal Setu (MTHL Trans-Harbour Link)', distance: '55 km', duration: '50 mins drive' },
     { destination: 'BKC Business District (Mumbai)', distance: '72 km', duration: '75 mins via MTHL' },
-    { destination: 'Karajat Railway Station', distance: '12 km', duration: '15 mins smooth drive' },
+    { destination: 'Karjat Railway Station', distance: '12 km', duration: '15 mins smooth drive' },
     { destination: 'Lonavala Hill Station', distance: '32 km', duration: '40 mins via NH 48' },
     { destination: 'Pune Expressway Toll Plaza', distance: '45 km', duration: '40 mins' },
   ];
@@ -23,7 +23,7 @@ export default function LocationConnectivity() {
             </h2>
           </div>
           <p className="font-body-md text-body-md text-on-surface-variant max-w-md">
-            Situated off the main Karajat-Murbad highway with double-lane tarmac access right up to the Prinalto grand entrance gates.
+            Situated off the main Karjat-Murbad highway with double-lane tarmac access right up to the Prinalto grand entrance gates.
           </p>
         </div>
 
@@ -35,10 +35,10 @@ export default function LocationConnectivity() {
                 Foothill Coordinates
               </span>
               <h3 className="font-headline-lg text-headline-lg text-primary tracking-tight">
-                Village Posari, Karajat
+                Village Posari, Karjat
               </h3>
               <p className="font-body-sm text-body-sm text-on-surface-variant mt-1 max-w-md">
-                Karajat-Murbad State Highway Access · Raigad District, Maharashtra 410201
+                Karjat-Murbad State Highway Access · Raigad District, Maharashtra 410201
               </p>
             </div>
 

@@ -74,7 +74,7 @@ export default function Amenities() {
               Private Pool for Every Villa
             </h3>
             <p className="font-body-lg text-body-lg text-surface-container-highest/90 mt-space-xs">
-              Every General villa plot includes a pre-sanctioned private swimming pool designed to seamlessly merge with the mist-clad Karajat hillside panorama.
+              Every General villa plot includes a pre-sanctioned private swimming pool designed to seamlessly merge with the mist-clad Karjat hillside panorama.
             </p>
           </div>
         </div>

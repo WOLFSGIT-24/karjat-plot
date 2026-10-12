@@ -1,6 +1,6 @@
 import React from 'react';
 
-export default function WhyKarajat() {
+export default function WhyKarjat() {
   const highlights = [
     {
       stat: '45 Min',
@@ -10,7 +10,7 @@ export default function WhyKarajat() {
     {
       stat: '18-22%',
       label: 'Annual Land Appreciation CAGR',
-      desc: 'Institutional infrastructure capital inflows propelling Karajat into Mumbai premier second-home luxury corridor.',
+      desc: 'Institutional infrastructure capital inflows propelling Karjat into Mumbai premier second-home luxury corridor.',
     },
     {
       stat: '3.5x',
@@ -25,7 +25,7 @@ export default function WhyKarajat() {
   ];
 
   return (
-    <section className="w-full py-space-xl bg-surface-container-low" id="why-karajat">
+    <section className="w-full py-space-xl bg-surface-container-low" id="why-karjat">
       <div className="max-w-[1380px] mx-auto px-margin-mobile lg:px-margin">
         <div className="flex flex-col lg:flex-row items-start justify-between gap-space-lg mb-space-lg">
           <div className="max-w-2xl">
@@ -33,7 +33,7 @@ export default function WhyKarajat() {
               Strategic Growth Corridor
             </span>
             <h2 className="font-display-md text-display-md-mobile lg:text-display-md text-primary tracking-tight">
-              Why Invest in Karajat Foothills?
+              Why Invest in Karjat Foothills?
             </h2>
             <p className="font-body-md text-body-md text-on-surface-variant mt-space-xs">
               Positioned at the golden intersection of Mumbai-Pune growth hubs and major infrastructure megapoprojects like MTHL Trans-Harbour Link & Navi Mumbai Airport.

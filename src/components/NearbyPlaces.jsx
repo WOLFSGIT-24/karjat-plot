@@ -60,7 +60,7 @@ export default function NearbyPlaces() {
         { name: 'Sukham Hospital', detail: 'Multi-specialty healthcare center' },
         { name: 'Phadke Hospital', detail: 'Emergency medical care facility' },
         { name: 'Rushabh Supermarket', detail: 'Daily provisions & grocery hub' },
-        { name: 'D-Mart Karajat', detail: 'Hypermarket for household essentials' },
+        { name: 'D-Mart Karjat', detail: 'Hypermarket for household essentials' },
       ],
     },
   };

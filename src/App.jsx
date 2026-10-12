@@ -3,7 +3,7 @@ import Header from './components/Header';
 import Hero from './components/Hero';
 import WhyInvest from './components/WhyInvest';
 import PlotOptions from './components/PlotOptions';
-import KarajatLifestyle from './components/KarajatLifestyle';
+import KarjatLifestyle from './components/KarjatLifestyle';
 import LocationAdvantage from './components/LocationAdvantage';
 import KeyHighlights from './components/KeyHighlights';
 import FinalCTA from './components/FinalCTA';
@@ -45,7 +45,7 @@ export default function App() {
           <PlotOptions onOpenBookModal={handleOpenBookModal} />
 
           {/* Section 4 — The Karjat Lifestyle */}
-          <KarajatLifestyle onOpenBookModal={handleOpenBookModal} />
+          <KarjatLifestyle onOpenBookModal={handleOpenBookModal} />
 
           {/* Section 5 — Location Advantage */}
           <LocationAdvantage onOpenBookModal={handleOpenBookModal} />

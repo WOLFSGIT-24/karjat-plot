@@ -110,7 +110,7 @@ export default function FinalCTA({ onShowToast }) {
             <div className="pt-space-sm flex flex-wrap items-center gap-space-md text-white font-medium">
               <div className="flex items-center gap-space-xs bg-white/15 backdrop-blur-md px-3 py-1.5 rounded-lg border border-white/20">
                 <span className="material-symbols-outlined text-secondary-fixed text-title-md">place</span>
-                <span className="font-label-md text-label-md">Karajat</span>
+                <span className="font-label-md text-label-md">Karjat</span>
               </div>
               <div className="flex items-center gap-space-xs bg-white/15 backdrop-blur-md px-3 py-1.5 rounded-lg border border-white/20">
                 <span className="material-symbols-outlined text-secondary-fixed text-title-md">square_foot</span>
