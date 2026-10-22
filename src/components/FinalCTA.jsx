@@ -1,6 +1,7 @@
+import { sendToWebhook } from '../utils/webhook';
 import React, { useState } from 'react';
 
-export default function FinalCTA({ onShowToast }) {
+export default function FinalCTA({ onShowToast, onFormSubmitSuccess }) {
   const [formData, setFormData] = useState({
     name: '',
     email: '',
@@ -70,9 +71,22 @@ export default function FinalCTA({ onShowToast }) {
       return;
     }
 
-    onShowToast(`Thank you ${formData.name.trim()}! Your site visit reservation request for Karjat plots has been booked. Confirmation sent to ${formData.email}.`, 'success');
+    const leadInfo = {
+      name: formData.name.trim(),
+      email: formData.email.trim(),
+      phone: formData.phone.trim(),
+    };
     setFormData({ name: '', email: '', phone: '' });
     setErrors({});
+
+    if (onFormSubmitSuccess) {
+      onFormSubmitSuccess(leadInfo);
+    } else {
+      sendToWebhook(leadInfo);
+      if (onShowToast) {
+        onShowToast(`Thank you ${leadInfo.name}! Your site visit reservation request for Karjat plots has been booked. Confirmation sent to ${leadInfo.email}.`, 'success');
+      }
+    }
   };
 
   return (

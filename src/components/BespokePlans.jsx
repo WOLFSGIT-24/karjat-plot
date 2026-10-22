@@ -100,7 +100,7 @@ export default function BespokePlans({ onOpenDossierModal }) {
             </div>
           </div>
 
-          {/* Specifications & Dossier Download */}
+          {/* Specifications & Plan Inquiry */}
           <div className="lg:col-span-4 flex flex-col justify-between h-full space-y-space-md py-space-sm">
             <div>
               <div className="inline-flex items-center gap-space-xs text-secondary mb-space-xs">
@@ -143,8 +143,8 @@ export default function BespokePlans({ onOpenDossierModal }) {
                 className="w-full bg-primary hover:bg-primary-container text-on-primary font-label-lg text-label-lg py-space-md rounded-lg flex items-center justify-center gap-space-sm shadow-md transition-colors cursor-pointer"
                 type="button"
               >
-                <span className="material-symbols-outlined text-title-md">download</span>
-                Download Architectural Dossier (PDF)
+                <span className="material-symbols-outlined text-title-md">description</span>
+                Request Architectural Specifications
               </button>
               <p className="font-label-sm text-label-sm text-center text-on-surface-variant/80">
                 Includes structural estimates, elevation renders, and FAR specs.
