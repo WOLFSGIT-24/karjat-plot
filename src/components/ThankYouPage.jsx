@@ -1,6 +1,44 @@
-import React from 'react';
+import React, { useEffect, useMemo } from 'react';
 
 export default function ThankYouPage({ leadData, onBackToHome }) {
+  // Inject Google Ads conversion event snippet into header for Thank You page only
+  useEffect(() => {
+    const originalTitle = document.title;
+    document.title = "Thank You | Prinalto Estates";
+
+    const scriptId = "google-ads-conversion-script";
+    let script = document.getElementById(scriptId);
+
+    if (!script) {
+      script = document.createElement("script");
+      script.id = scriptId;
+      script.type = "text/javascript";
+      script.text = `gtag('event', 'conversion', {
+    'send_to': 'AW-18341595504/M-2VCJ7r3aUdEPCS-qlE',
+    'value': 1.0,
+    'currency': 'INR'
+});`;
+      document.head.appendChild(script);
+    }
+
+    // Direct invocation fallback if gtag is already present in window
+    if (typeof window !== "undefined" && typeof window.gtag === "function") {
+      window.gtag("event", "conversion", {
+        send_to: "AW-18341595504/M-2VCJ7r3aUdEPCS-qlE",
+        value: 1.0,
+        currency: "INR"
+      });
+    }
+
+    return () => {
+      document.title = originalTitle;
+      const el = document.getElementById(scriptId);
+      if (el) {
+        el.remove();
+      }
+    };
+  }, []);
+
   const referenceId = React.useMemo(() => {
     const randomNum = Math.floor(10000 + Math.random() * 90000);
     return `PRN-KRJ-${randomNum}`;
