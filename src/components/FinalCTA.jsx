@@ -128,11 +128,11 @@ export default function FinalCTA({ onShowToast, onFormSubmitSuccess }) {
               </div>
               <div className="flex items-center gap-space-xs bg-white/15 backdrop-blur-md px-3 py-1.5 rounded-lg border border-white/20">
                 <span className="material-symbols-outlined text-secondary-fixed text-title-md">square_foot</span>
-                <span className="font-label-md text-label-md">Plot sizes from 2,000 sq. ft. to 1 Acre</span>
+                <span className="font-label-md text-label-md">1,500 sq. ft. to 1 acre</span>
               </div>
               <div className="flex items-center gap-space-xs bg-white/15 backdrop-blur-md px-3 py-1.5 rounded-lg border border-white/20">
                 <span className="material-symbols-outlined text-secondary-fixed text-title-md">payments</span>
-                <span className="font-label-md text-label-md">Starting from ₹1 Cr+</span>
+                <span className="font-label-md text-label-md">From ₹75 lacs</span>
               </div>
             </div>
           </div>

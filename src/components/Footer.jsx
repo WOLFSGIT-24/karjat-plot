@@ -16,7 +16,7 @@ export default function Footer() {
               />
             </a>
             <p className="font-body-sm text-body-sm text-surface-variant/80 max-w-sm leading-relaxed">
-              Premium plot opportunities in Karjat from 2,000 sq. ft. to 1 Acre. Ideal for private weekend homes, villa living, or long-term land investment.
+              Premium plot opportunities in Karjat from 1,500 sq. ft. to 1 acre. Ideal for private weekend homes, villa living, or long-term land investment.
             </p>
             <div className="pt-1">
               <span className="font-label-sm text-xs text-white/50 block uppercase tracking-wider mb-1">

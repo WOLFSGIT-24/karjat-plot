@@ -38,7 +38,7 @@ export default function PaymentOptions({ onOpenBookModal }) {
             </h2>
           </div>
           <p className="font-body-md text-body-md text-on-surface-variant max-w-md">
-            Select from custom financial plans starting at ₹1 Cr+ for 2,000 sq.ft to 1 Acre villa plot parcels.
+            Select from custom financial plans starting from ₹75 lacs for 1,500 sq. ft. to 1 acre villa plot parcels.
           </p>
         </div>
 
@@ -77,7 +77,7 @@ export default function PaymentOptions({ onOpenBookModal }) {
                 className="w-full bg-primary hover:bg-primary-container text-on-primary font-label-lg text-label-lg py-space-sm rounded-lg font-semibold transition-colors cursor-pointer"
                 type="button"
               >
-                Inquire For Offer Details
+                Get Festive Offer Details
               </button>
             </div>
           ))}

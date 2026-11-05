@@ -35,7 +35,7 @@ export default function Hero({ onOpenBookModal }) {
         {/* Subtitle & Specs */}
         <div className="space-y-2 max-w-2xl">
           <p className="font-title-lg text-title-lg text-secondary-fixed font-bold tracking-wide">
-            Plots from 2,000 sq. ft. to 1 Acre &nbsp;·&nbsp; Starting from ₹1 Cr+
+            Plots from 1,500 sq. ft. to 1 acre | From ₹75 lacs
           </p>
           <p className="font-body-lg text-body-lg text-white/90 font-light leading-relaxed">
             Explore premium plot opportunities in Karjat with options for a private villa, weekend home or long-term investment.
@@ -51,14 +51,19 @@ export default function Hero({ onOpenBookModal }) {
           >
             Explore Plot Options
           </button>
-          <button
-            onClick={onOpenBookModal}
-            className="inline-flex items-center justify-center gap-2 bg-white/15 hover:bg-white/25 border border-white/40 text-white backdrop-blur-md font-label-lg text-label-lg px-8 py-3.5 rounded-full transition-all duration-300 shadow-md cursor-pointer font-semibold"
-            type="button"
-          >
-            <span className="material-symbols-outlined text-title-md">calendar_month</span>
-            Book Site Visit
-          </button>
+          <div className="relative inline-flex">
+            <button
+              onClick={onOpenBookModal}
+              className="inline-flex items-center justify-center gap-2 bg-white/15 hover:bg-white/25 border border-white/40 text-white backdrop-blur-md font-label-lg text-label-lg px-8 py-3.5 rounded-full transition-all duration-300 shadow-md cursor-pointer font-semibold"
+              type="button"
+            >
+              <span className="material-symbols-outlined text-title-md">calendar_month</span>
+              Book Site Visit
+            </button>
+            <span className="absolute -top-3 -right-2 bg-amber-400 text-[#141b12] text-[10px] font-bold uppercase tracking-wider px-2.5 py-0.5 rounded-full shadow-md border border-white/50 flex items-center gap-1 animate-pulse">
+              ✨ Festive Offers Available
+            </span>
+          </div>
         </div>
 
       </div>

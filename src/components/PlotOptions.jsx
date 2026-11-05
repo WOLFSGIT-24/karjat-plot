@@ -3,9 +3,9 @@ import React from 'react';
 export default function PlotOptions({ onOpenBookModal }) {
   const options = [
     {
-      size: '2,000+ sq. ft.',
+      size: '1,500 sq. ft.',
       desc: 'Ideal for a private weekend home',
-      price: 'Starting ₹1 Cr+',
+      price: 'From ₹75 lacs',
       image: '/pool_villa.jpg',
       tag: 'Compact Retreat',
     },
@@ -50,7 +50,7 @@ export default function PlotOptions({ onOpenBookModal }) {
 
           <div className="bg-surface-container-low px-space-md py-space-sm rounded-lg border border-surface-container-high">
             <span className="font-label-sm text-label-sm uppercase text-on-surface-variant block">Starting Price</span>
-            <span className="font-title-lg text-title-lg text-secondary font-bold">Starting from ₹1 Cr+</span>
+            <span className="font-title-lg text-title-lg text-secondary font-bold">From ₹75 lacs</span>
           </div>
         </div>
 

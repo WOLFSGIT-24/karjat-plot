@@ -2,7 +2,7 @@ import React from 'react';
 
 export default function WhyInvest({ onOpenBookModal }) {
   const points = [
-    { text: 'Plot sizes 2,000 sq. ft. to 1 Acre', icon: 'square_foot' },
+    { text: 'Plot sizes from 1,500 sq. ft. to 1 acre', icon: 'square_foot' },
     { text: 'Agricultural & Non-Agricultural land options', icon: 'gavel' },
     { text: 'Secure gated community living options', icon: 'shield' },
     { text: 'Private villa & swimming pool options', icon: 'pool' },

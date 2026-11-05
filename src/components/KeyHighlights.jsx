@@ -2,8 +2,8 @@ import React from 'react';
 
 export default function KeyHighlights({ onOpenBookModal }) {
   const highlights = [
-    'Plot sizes 2,000 sq. ft. to 1 Acre',
-    'Investment pricing starting from ₹1 Cr+',
+    'Plots from 1,500 sq. ft. to 1 acre',
+    'Pricing from ₹75 lacs',
     'Agricultural & Non-Agricultural land options',
     'Secure gated community living options',
     'Private villa swimming pool options',
@@ -71,7 +71,7 @@ export default function KeyHighlights({ onOpenBookModal }) {
               className="bg-secondary-fixed hover:bg-secondary-fixed-dim text-on-secondary-fixed font-label-lg text-label-lg px-space-lg py-space-md rounded-lg font-bold shadow-lg transition-all duration-300 whitespace-nowrap cursor-pointer"
               type="button"
             >
-              Get Pricing & Payment Details
+              Get Festive Offer Details
             </button>
           </div>
         </div>
