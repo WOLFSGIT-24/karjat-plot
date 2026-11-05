@@ -34,6 +34,16 @@ export default function App() {
   const [selectedGalleryItem, setSelectedGalleryItem] = useState(null);
   const [toast, setToast] = useState(null);
 
+  // Auto-open popup form when page loads on homepage
+  useEffect(() => {
+    if (currentPage === "home") {
+      const timer = setTimeout(() => {
+        setIsEnquiryModalOpen(true);
+      }, 600);
+      return () => clearTimeout(timer);
+    }
+  }, [currentPage]);
+
   useEffect(() => {
     const handlePopState = () => {
       const path = window.location.pathname.replace(/\/+$/, '');
