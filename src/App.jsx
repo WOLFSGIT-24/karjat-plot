@@ -138,7 +138,7 @@ export default function App() {
 
             {/* Floating WhatsApp Action Button */}
       <a
-        href={`https://wa.me/${(import.meta.env.VITE_WHATSAPP_NUMBER || "").replace(/\D/g, "")}?text=${encodeURIComponent("Hi, I am interested in Prinalto Estates Karjat Plots. Please share details.")}`}
+        href={`https://wa.me/${((import.meta.env.VITE_WHATSAPP_NUMBER || "919618990897").replace(/\D/g, "").length === 10 ? "91" : "") + (import.meta.env.VITE_WHATSAPP_NUMBER || "919618990897").replace(/\D/g, "")}?text=${encodeURIComponent("Hi, I am interested in Prinalto Estates Karjat Plots. Please share details.")}`}
         target="_blank"
         rel="noopener noreferrer"
         className="fixed bottom-[84px] md:bottom-8 right-4 md:right-8 bg-[#25D366] hover:bg-[#20ba59] text-white p-3.5 md:p-4 rounded-full shadow-[0_4px_20px_rgba(37,211,102,0.45)] hover:shadow-[0_8px_30px_rgba(37,211,102,0.65)] hover:scale-110 active:scale-95 transition-all duration-300 z-40 flex items-center justify-center group"

@@ -1,8 +1,10 @@
 import React from "react";
 
 export default function MobileFixedCTA({ onOpenBookModal }) {
-  const whatsappNumber = import.meta.env.VITE_WHATSAPP_NUMBER || "";
-  const whatsappUrl = `https://wa.me/${whatsappNumber ? whatsappNumber.replace(/\D/g, "") : ""}?text=${encodeURIComponent("Hi, I am interested in Prinalto Estates Karjat Plots. Please share details.")}`;
+    const rawNumber = import.meta.env.VITE_WHATSAPP_NUMBER || "919618990897";
+  const digits = rawNumber.replace(/\D/g, "");
+  const cleanNumber = digits.length === 10 ? "91" + digits : digits;
+  const whatsappUrl = `https://wa.me/${cleanNumber}?text=${encodeURIComponent("Hi, I am interested in Prinalto Estates Karjat Plots. Please share details.")}`;
 
   return (
     <div className="fixed bottom-0 left-0 right-0 z-50 md:hidden bg-black/90 backdrop-blur-xl border-t border-white/15 px-4 py-3 shadow-[0_-8px_30px_rgba(0,0,0,0.35)] transition-all duration-300">
