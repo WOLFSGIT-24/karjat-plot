@@ -230,7 +230,7 @@ export default function ThankYouPage({ leadData, onBackToHome }) {
       {/* Footer */}
       <footer className="w-full bg-black/60 border-t border-white/10 py-6 text-center text-neutral-400 text-xs px-4">
         <div className="max-w-[1380px] mx-auto flex flex-col sm:flex-row items-center justify-between gap-3">
-          <span>© 2026 Prinalto Estates. All rights reserved. MahaRERA: P52000049812</span>
+          <span>© 2026 Prinalto Estates. All rights reserved.</span>
           <button
             onClick={onBackToHome}
             className="text-[#a0c49d] hover:text-white transition-colors cursor-pointer bg-transparent border-none"
