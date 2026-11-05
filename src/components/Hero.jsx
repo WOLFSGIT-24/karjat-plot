@@ -1,4 +1,4 @@
-import React from 'react';
+import React from "react";
 
 export default function Hero({ onOpenBookModal }) {
   return (
@@ -14,7 +14,7 @@ export default function Hero({ onOpenBookModal }) {
         <div className="absolute inset-0 bg-primary/20 mix-blend-overlay"></div>
       </div>
 
-      {/* Main Content Container (Centered layout matching Walk in the Clouds) */}
+      {/* Main Content Container */}
       <div className="relative z-10 max-w-4xl w-full mx-auto px-margin-mobile lg:px-margin flex flex-col items-center justify-center space-y-space-md py-space-xl">
         
         {/* Top Centered Pill Badge */}
@@ -37,33 +37,40 @@ export default function Hero({ onOpenBookModal }) {
           <p className="font-title-lg text-title-lg text-secondary-fixed font-bold tracking-wide">
             Plots from 1,500 sq. ft. to 1 acre | From ₹75 lacs
           </p>
-          <p className="font-body-lg text-body-lg text-white/90 font-light leading-relaxed">
-            Explore premium plot opportunities in Karjat with options for a private villa, weekend home or long-term investment.
+          <p className="font-body-lg text-body-lg text-white font-medium leading-relaxed drop-shadow-sm">
+            This festive season, find your plot at Prinalto in Karjat.
           </p>
         </div>
 
         {/* Centered Pill Action Buttons */}
-        <div className="flex flex-wrap items-center justify-center gap-4 pt-space-md">
-          <button
-            onClick={onOpenBookModal}
-            className="inline-flex items-center justify-center bg-white hover:bg-surface-bright text-[#3b5730] font-label-lg text-label-lg px-8 py-3.5 rounded-full shadow-xl hover:shadow-2xl transition-all duration-300 cursor-pointer font-bold"
-            type="button"
-          >
-            Explore Plot Options
-          </button>
-          <div className="relative inline-flex">
+        <div className="flex flex-col items-center gap-4 pt-space-md">
+          <div className="flex flex-wrap items-center justify-center gap-4">
+            <button
+              onClick={onOpenBookModal}
+              className="inline-flex items-center justify-center bg-white hover:bg-surface-bright text-[#3b5730] font-label-lg text-label-lg px-8 py-3.5 rounded-full shadow-xl hover:shadow-2xl transition-all duration-300 cursor-pointer font-bold"
+              type="button"
+            >
+              View Plot Options
+            </button>
             <button
               onClick={onOpenBookModal}
               className="inline-flex items-center justify-center gap-2 bg-white/15 hover:bg-white/25 border border-white/40 text-white backdrop-blur-md font-label-lg text-label-lg px-8 py-3.5 rounded-full transition-all duration-300 shadow-md cursor-pointer font-semibold"
               type="button"
             >
               <span className="material-symbols-outlined text-title-md">calendar_month</span>
-              Book Site Visit
+              Book a Site Visit
             </button>
-            <span className="absolute -top-3 -right-2 bg-amber-400 text-[#141b12] text-[10px] font-bold uppercase tracking-wider px-2.5 py-0.5 rounded-full shadow-md border border-white/50 flex items-center gap-1 animate-pulse">
-              ✨ Festive Offers Available
-            </span>
           </div>
+
+          {/* Golden Festive Offers Available Pill */}
+          <button
+            onClick={onOpenBookModal}
+            className="inline-flex items-center justify-center gap-2 px-8 py-3 rounded-full bg-gradient-to-r from-[#e5a83b] via-[#f5bf53] to-[#e5a83b] hover:from-[#d99a2c] hover:to-[#d99a2c] text-[#1c1404] font-bold text-sm sm:text-base tracking-wide shadow-[0_4px_25px_rgba(245,191,83,0.45)] hover:shadow-[0_6px_30px_rgba(245,191,83,0.65)] hover:scale-105 active:scale-95 transition-all duration-300 cursor-pointer"
+            type="button"
+          >
+            <span className="text-lg">🎁</span>
+            <span>Festive Offers Available</span>
+          </button>
         </div>
 
       </div>
