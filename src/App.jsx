@@ -39,7 +39,7 @@ export default function App() {
     if (currentPage === "home") {
       const timer = setTimeout(() => {
         setIsEnquiryModalOpen(true);
-      }, 600);
+      }, 10000); // 10 seconds
       return () => clearTimeout(timer);
     }
   }, [currentPage]);
